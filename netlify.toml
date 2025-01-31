@@ -1,1 +1,6 @@
+[build]
+  functions = "netlify/functions"
+  publish = "public"  # Change if you have a separate folder for static files
 
+[functions]
+  node_bundler = "esbuild"  # Recommended bundler for faster builds
